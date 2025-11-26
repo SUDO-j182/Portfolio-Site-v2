@@ -14,7 +14,7 @@ function Hero() {
 
       <div className="hero-actions">
         <a href="#services" className="btn btn-primary">View Services</a>
-        <a href="YOUR_FIVERR_LINK_HERE" className="btn btn-secondary">Hire Me on Fiverr</a>
+        <a href="https://www.fiverr.com/s/vvgB7Dz" className="btn btn-secondary">Hire Me on Fiverr</a>
       </div>
     </section>
   );

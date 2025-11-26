@@ -3,7 +3,7 @@ function Skills () {
          <section id="skills">
       <h2>Skills</h2>
       <ul>
-        <li>HTML, CSS, JavaScript basics</li>
+        <li>HTML, CSS, JavaScript</li>
         <li>React, Node.js, Express.js</li>
         <li>Tools: VS Code and Git</li>
       </ul>

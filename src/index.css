@@ -11,6 +11,7 @@ body {
   color: #e2e8f0;      /* soft light */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.5;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {

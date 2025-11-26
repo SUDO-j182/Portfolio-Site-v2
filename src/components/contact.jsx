@@ -6,11 +6,11 @@ function Contact() {
         Want to reach out about a project, debugging help, or just to connect?
       </p>
       <div className="contact-links">
-        <a href="mailto:your-email@example.com">Email</a>
-        <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
+        <a href="mailto:jdbanksmain@gmail.com">Email</a>
+        <a href="https://github.com/SUDO-j182" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        {/* add Fiverr / portfolio links later */}
+        <a href="https://www.fiverr.com/s/YR5ljxd" target="_blank" rel="noreferrer">Fiverr</a>
       </div>
     </section>
   );

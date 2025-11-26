@@ -34,8 +34,8 @@ const projects = [
   {
     title: "Task Manager",
     description:
-      "Frontend task manager app for adding, tracking and completing tasks. Demonstrates clean state handling, basic UI logic and user-friendly layout.",
-    tech: ["JavaScript", "HTML", "CSS"],
+      "Full-stack task manager with Node.js, Express and PostgreSQL. Handles adding, tracking and completing tasks with a clean UI, simple API routes and reliable server logic.",
+    tech: ["JavaScript", "HTML", "CSS", "Node.js", "Express", "PostgreSQL"],
     link: "https://github.com/SUDO-j182/task-manager-v1",
     image: "/projects/task-manager.png",
   },

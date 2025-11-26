@@ -18,6 +18,12 @@ function Services() {
           <h3>UI Cleanup & Front-end Refinement</h3>
           <p>Fixing styling issues, spacing, responsiveness, component polish and general front-end improvements.</p>
         </article>
+
+        <article>
+          <h3>Backend Setup & Server Fixes</h3>
+          <p>I handle small backend tasks using Node.js and Express - server setup, routing issues, package installs, dependency fixes, and simple API endpoints.</p>
+        </article>
+
       </div>
     </section>
   );

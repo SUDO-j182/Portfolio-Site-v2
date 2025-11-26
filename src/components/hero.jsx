@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section id="hero" className="hero">
-      <p className="hero-kicker">Web fixes • Custom tools • Front-end debugging</p>
+      <p className="hero-kicker">Custom tools • Front-end debugging • React • Node.js • Express</p>
 
       <h2 className="hero-title">
         I help clients fix bugs, clean up code, and build small, focused web tools.

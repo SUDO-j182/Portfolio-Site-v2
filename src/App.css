@@ -201,6 +201,15 @@ h2 {
 .project-link:hover {
   text-decoration: underline;
 }
+.project-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
 
 .services-list {
   display: grid;

@@ -4,7 +4,7 @@ function Skills () {
       <h2>Skills</h2>
       <ul>
         <li>HTML, CSS, JavaScript basics</li>
-        <li>Currently learning React</li>
+        <li>React, Node.js, Express.js</li>
         <li>Tools: VS Code and Git</li>
       </ul>
     </section>

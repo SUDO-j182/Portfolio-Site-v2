@@ -1,51 +1,32 @@
 import './App.css'
+import Navbar from './components/navbar';
+import Hero from './components/hero';
+import About from './components/about';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import Contact from './components/contact';
 
 function App() {
   
   return (
     <div>
-      <header>
-        <h1>Jai Drakulic</h1>
-        <nav>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+
+      <Navbar />
 
       <main>
-        <section id="hero">
-          <h2>Web Developer In Progress</h2>
-          <p>Im learning react and modern web tools.</p>
-        </section>
 
-        <section id="about">
-          <h2>About</h2>
-          <p>INTRO PLACEHOLDER</p>
-        </section>
+       <Hero />
 
-        <section id="projects">
-          <h2>Projects</h2>
-          <p>PROJECT CARDS GO HERE LATER</p>
-        </section>
+        <About />
 
-        <section id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML, CSS JavaScript basics</li>
-            <li>Currently learning react</li>
-            <li>Tools: vs code and git</li>
-          </ul>
-        </section>
+        <Projects />
 
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>
-            SOCIAL LINKS CAN GO HERE LATER
-          </p>
-        </section>
+        <Skills />
+
+        <Contact />
+
       </main>
+      
     </div>
   );
 }

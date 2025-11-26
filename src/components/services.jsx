@@ -6,12 +6,12 @@ function Services() {
       <div className="services-list">
         <article>
           <h3>Bug Fixing & Debugging</h3>
-          <p>I diagnose and fix broken features, UI glitches, layout issues, console errors and script problems.</p>
+          <p>I diagnose and fix broken features, UI glitches, layout issues, console errors, script problems and React issues.</p>
         </article>
 
         <article>
           <h3>Small Custom Web Tools</h3>
-          <p>Simple utilities built with JavaScript, HTML and CSS — calculators, generators, converters and more.</p>
+          <p>Simple utilities built with JavaScript, HTML and CSS and React - calculators, generators, converters and more.</p>
         </article>
 
         <article>

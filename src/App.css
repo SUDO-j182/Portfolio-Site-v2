@@ -190,6 +190,38 @@ h2 {
 .projects-grid p {
   margin: 0.25rem 0;
 }
+.project-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.services-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.services-list article {
+  background: #1e293b;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.services-list h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+
+/* --- Skills Section --- */
 #skills ul {
   list-style: none;
   padding: 0;

@@ -1,16 +1,16 @@
 const projects = [
-    {
-        title: "Password Generator",
-        description: "A tool that generates secure random passwords based on user preferences.",
-        tech: ["Javascript", "HTML", "CSS"],
-        link: "#"
-    },
-    {
-        title: "Hash Comparisom Tool",
-        description: "Checks if two hashed values match",
-        tech: ["Javascript", "HTML", "CSS"],
-        link: "#"
-    }
+  {
+  title: "Password Generator Tool",
+  description: "Built a lightweight client-side tool that allows users to generate secure passwords with custom length and character settings. Focused on clean UI and easy functionality.",
+  tech: ["JavaScript", "HTML", "CSS"],
+  link: "https://github.com/YOURUSERNAME/password-generator-v1"
+},
+{
+  title: "Hash Comparison Utility",
+  description: "Developed a browser tool that compares hash outputs in real time. Useful for integrity checks, debugging, and file verification workflows.",
+  tech: ["JavaScript"],
+  link: "https://github.com/YOURUSERNAME/hash-comparison-tool"
+}
 ];
 
 
@@ -25,6 +25,7 @@ function Projects () {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <p><strong>Tech:</strong> {project.tech.join(", ")}</p>
+                <a href={project.link} target="_blank" rel="noreferrer" className="project-link">View Code</a>
             </article>
   ))}
 </div>

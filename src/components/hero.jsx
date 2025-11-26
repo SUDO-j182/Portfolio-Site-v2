@@ -1,16 +1,20 @@
 function Hero() {
   return (
     <section id="hero" className="hero">
-      <p className="hero-kicker">Web developer in progress</p>
-      <h2 className="hero-title">Hi, I&apos;m Jai. I build small, focused web tools while I relearn the fundamentals.</h2>
+      <p className="hero-kicker">Web fixes • Custom tools • Front-end debugging</p>
+
+      <h2 className="hero-title">
+        I help clients fix bugs, clean up code, and build small, focused web tools.
+      </h2>
+
       <p className="hero-subtitle">
-        I&apos;m transitioning from warehousing into front-end development, rebuilding my skills with React,
-        JavaScript, and modern tooling.
+        Whether you need a broken feature fixed, a script cleaned up, or a small UI tool built from scratch,
+        I deliver clean, reliable front-end solutions with clear communication.
       </p>
 
       <div className="hero-actions">
-        <a href="#projects" className="btn btn-primary">View projects</a>
-        <a href="#contact" className="btn btn-secondary">Contact me</a>
+        <a href="#services" className="btn btn-primary">View Services</a>
+        <a href="YOUR_FIVERR_LINK_HERE" className="btn btn-secondary">Hire Me on Fiverr</a>
       </div>
     </section>
   );
